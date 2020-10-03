@@ -1,0 +1,554 @@
+
+body{
+}
+/* FOR CONTAINER */
+.container {
+  /* background-color: blue; */
+  width: 80%; /* specify a width */
+  margin: 0 auto;  /* centers the container */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+/* FORCONTAINERHEADER */
+.container-menu{
+  background-color: #050505!important;
+  height: 52px;
+  width: 100%;
+}
+
+.header-menu{
+  display: inline-block;
+  background-color: #050505;
+  width: 100%;
+}
+
+.menu-bottom{
+  width: 100%; /* specify a width */
+  margin: 0 auto;  /* centers the container */
+   padding: 17px 15px; /*adds some padding to the left and right */
+}
+
+/* JUMBOTRON */
+.jumbotron{
+  background-image: url('img/IpMan.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.main-movie{
+  text-align: center;
+  padding: 137px;
+}
+
+/* PANEL */
+.content-panel{
+  height: 450px;
+}
+
+.panel{
+  background-color: #00a79d;
+  height: 69px;
+  border-radius: 20px;
+}
+
+.grid-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+}
+
+
+
+.grid-items {
+  display: inline-block;
+  width: 27%;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 14px;
+}
+
+.Card-container {
+  display: inline-block;
+  width: 100%;
+  padding: 0 10px;
+}
+
+
+.cardinformasi-item {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 0.5px solid;
+  margin: 12px -19px;
+}
+
+.cardinformasi-item span{
+  display: inline-block;
+  width: 100%;
+  color: #00a79d;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardinformasi-item strong{
+  color: #050505;
+}
+
+.Judul-movie{
+  border-bottom: unset;
+}
+
+.cardinformasi-item .color-white{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardinformasi-item .non-black{
+  color: #050505;
+}
+
+.title-movie{
+  display: inline-block;
+  width: 100%;
+}
+
+.title-movies{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+
+.describtion-movie{
+  display: inline-block;
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.describtion-movie .desc-atas{
+  display: inline-block;
+  width: 40%;
+  margin-top: 10px;
+  vertical-align: top;
+  font-size: 12px;
+  float: left;
+}
+
+.describtion-movie .desc-bawah{
+  display: inline-block;
+  width:59%;
+  font-size: 12px;
+  float: right;
+}
+
+.descparag{
+  display: inline-block;
+  width: 24%;
+}
+
+.del-underline{
+  border-bottom: none;
+}
+
+/* FOR RECOMENDASIFILM  */
+.recomend-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.recomend-container {
+  margin: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.recomend-item {
+  display: inline-block;
+  width: 13%;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.recomend-item a{
+  vertical-align: top;
+  float: right;
+  left: auto;
+  color: yellow;
+  background-color: #050505;
+  opacity: 0.9 ;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 3;
+  margin-left: -31px;
+}
+
+.recomend-item span{
+  font-size: 10px;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -132px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.recomend-item .image-movie{
+  width: 136px;
+  height: 290px;
+  border-radius: 15px;
+}
+
+
+/* BREADCRUMB */
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  color: grey;
+  display: inline;
+  font-size: 12px;
+}
+
+/* FORNAVBAR */
+
+.top-navbar{
+  margin: auto;
+  width: 95%;
+}
+
+.nav-img{
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+.nav-img input{
+  position: relative;
+  border-radius: 20px;
+  border-color: grey;
+  left: 33%;
+  height: 30px;
+  width: 250px;
+  margin:25px 0 ;
+  vertical-align: top;
+}
+
+.nav-img input::placeholder{
+  position: relative;
+  border-radius: 20px;
+  background-image: url('img/search.png');
+  background-repeat: no-repeat;
+  background-position: 210px 0px;
+  padding-left:5px;
+  right: 0px;
+  padding: 2px 7px;
+}
+
+.nav-img input:focus{
+  outline: 0;
+}
+
+
+.profile{
+  display: inline-block;
+  width: 14%;
+  float: right;
+}
+
+.nav-img{
+  display: inline-block;
+  left:500px;
+}
+
+.btm-navbar{
+  background-color: #050505;
+  display: inline-block;
+  margin:auto;
+  width: 1240px;
+  height: 50px;
+}
+
+.nav-menu{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  background-color: #050505;
+}
+
+.nav-menu a{
+  text-align: center !important;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  width: 10%
+}
+
+.btm-navbar a{
+  color: white;
+}
+
+/* FOR LINK */
+  a:link {
+  text-decoration: none;
+  text-align: uppercase;
+  font-size: 12px;
+}
+/* RECOMENDASI FILM */
+.recomended-movie{
+  display: inline-block;
+  width: 100%
+}
+
+.recomendasicard-item{
+  width: 162px;
+  height: 308px;
+  border-radius: 20px;
+  background-image: url('img/Manifest.png');
+  background-repeat: no-repeat;
+}
+
+/* FOOTER */
+.footer{
+  background-color: #050505;
+}
+
+.footer-atas{
+  display: inline-block;
+  width: 100%;
+}
+.sosmed-item{
+  display: inline-block;
+  width: 5%;
+  float: right;
+  margin-top: 17px;
+  padding: 5px;
+}
+.sosmed-items{
+  display: inline-block;
+  width: 74%;
+}
+
+.footer-bawah{
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
+
+.card-partner{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 16%;
+  margin: 0 auto;
+}
+
+.card-partner span{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.partner-item li{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: 4px;
+  font-size: 12px;
+  list-style: none;
+}
+
+.partner-item ul{
+  padding: 0;
+}
+
+.ft-bawah{
+  height: 38px;
+  background-color: grey;
+}
+
+.ftbcard-item{
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.ftbcard-itema{
+  padding: 10px 0;
+  display: inline-block;
+  float: right;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1441px) {
+  .header-menu{
+    display: inline-block;
+  }
+  .footer{
+    display: inline-block;
+    width: 100%;
+  }
+  .nav-img input{
+    position: relative;
+    border-radius: 20px;
+    border-color: grey;
+    left: 49%;
+    height: 30px;
+    width: 250px;
+    margin:25px 0 ;
+    vertical-align: top;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 1025px) {
+  .header-menu{
+    display: inline-block;
+  }
+  .grid-items .image-ipman{
+    width: 88%;
+  }
+  .cardinformasi-item{
+    margin: 5px -17px;
+  }
+  .recomend-item{
+    width: 24%;
+  }
+  .nav-img input{
+    position: relative;
+    border-radius: 20px;
+    border-color: grey;
+    left: 34%;
+    height: 30px;
+    width: 250px;
+    margin:25px 0 ;
+    vertical-align: top;
+  }
+  .footer{
+    display: inline-block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 769px) {
+  .header-menu{
+    display: inline-block;
+  }
+  .panel{
+    height: 100%;
+  }
+  .grid-items{
+    width: 46%;
+    margin-top: 10px;
+    margin-left: 32%;
+  }
+  .grid-item{
+    margin-left: 15%;
+  }
+  .content-reconmend{
+    margin-top: 54%;
+  }
+  .nav-img input{
+    left: 16%;
+  }
+  .footer{
+    display: inline-block;
+  }
+  .sosmed-items{
+    width: 70%;
+  }
+  .card-partner{
+    width: 32%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 425px) {
+  .header-menu{
+    display: inline-block;
+    width: 100%;
+  }
+  .footer{
+    display: inline-block;
+  }
+  .jumbotron{
+    background-size: 100% 100%; 
+  }
+  .main-movie{
+    padding: 25%;
+  }
+  .nav-menu a{
+    width: 100%;
+    padding: 10px;
+  }
+  .nav-img input{
+    left: 1%;
+  }
+  .profile{
+    width: 17%;
+  }
+  .grid-items{
+    margin-top: 32%;
+  }
+  .content-reconmend{
+    margin-top: 132%;
+  }
+  .recomend-item{
+    width: 48%;
+  }
+  .sosmed-item{
+    width: 4%;
+  }
+  .ftbcard-item{
+    font-size: 10%;
+  }
+  .ftbcard-itema{
+    font-size: 10%;
+  }
+}
+
+@media (max-width: 321px) {
+  .header-menu{
+    display: inline-block;
+    width: 100%;
+  }
+  .footer{
+    display: inline-block;
+  }
+  .nav-img input{
+    left: 1%;
+  }
+  .profile{
+    width: 80%;
+    float: right;    
+  }
+  .nav-menu a{
+    width: 100%;
+    padding: 10px;
+  }
+  .jumbotron{
+    background-image: url('img/IpMan.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .grid-item{
+    margin-top: 29%;
+  }
+  .content-reconmend{
+    margin-top: 213%;
+  }
+  .recomend-item{
+    width: 100%;
+  }
+  .sosmed-items{
+    width: 63%;
+  }
+  .card-partner{
+    width: 47%;
+  }
+}

@@ -1,0 +1,691 @@
+@font-face{
+    font-family: montserrat;
+    src: url(font/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: aire;
+    src: url(font/AireExterior.ttf);
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+body{
+    font-family: montserrat;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.left-header{
+    width: max-content;
+    float: left;
+    height: 100%;
+}
+
+.right-header{
+    width: max-content;
+    height: 100%;
+    float: right;
+}
+
+.logo-header{
+    width: 157px;
+    height: 71px;
+    margin: 8px 0;
+}
+
+.fas.fa-bars{
+    display: none;
+}
+
+.search{
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+    width: 289px;
+    height: 45px;
+    border-radius: 22.5px;
+    padding: 0 27px 0 20px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.search::placeholder{
+    color: #999999;
+}
+
+.fas.fa-search{
+    color: #999999;
+    margin: 0 20px 0 -30px;
+}
+.fas.fa-user-circle{
+    font-size: 50px;
+    color: #999999;
+    vertical-align: middle;
+}
+
+.fas.fa-chevron-down{
+    font-size: 15px;
+    color: #999999;
+    margin-left: 5px;
+}
+
+.navbar{
+    padding: 5px;
+    background-color: #121212;
+}
+.navbar ul{
+    padding-inline-start: 0;
+}
+
+.navbar ul li{
+    padding-right: 50px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumbs{
+    color: #999999;
+    width: 100%;
+}
+
+.trailer{
+    background-image: url('img/background-ipman4.png');
+    background-size: cover;
+    height: 420px;
+    position: relative;
+}
+
+.middle{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.play-btn{
+    display: block;
+    margin: auto;
+}
+
+.middle button{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    width: 170px;
+    height: 38px;
+    background-color: #ff5e5e;
+    border-radius: 19px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.middle button:focus{
+    outline: none;
+}
+
+.description{
+    height: max-content;
+    background-color: #00a79d;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.img1 {
+    margin: 30px 20px 30px 10px ;
+    float: left;
+}
+
+.description h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: aire;
+    font-size: 30px;
+}
+
+.description2 p{
+    color: #00a79d;
+}
+
+.description2 strong{
+    color: black;
+}
+
+.info{
+    padding-bottom: 10px;
+}
+
+.info p{
+    color: white;
+    margin-top: 10px;
+}
+
+.info .info-right{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.info .info-right a{
+    text-decoration: none;
+}
+
+.info .info-right .info-p{
+    display: inline;
+    margin: 10px;
+}
+
+.recommended{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.content h2{
+    font-family: aire;
+    font-size: 30px;
+}
+
+.recommended img{
+    margin: 0 10px 0 0;
+    width:165px; 
+    height:287px;
+}
+
+.recommended-items{
+    display: inline-block;
+    height: max-content;
+    position: relative;
+}
+
+.rating{
+    position: absolute;
+    color: yellow;
+    top: 1px;
+    right: 1px;
+    transform: translate(-25%,5%);
+    background-color: rgba(8, 12, 12, 0.5);
+    border-radius: 5px;
+}
+
+.rating span{
+    font-size: 12px;
+}
+
+.recommended-items p{
+    position: absolute;
+    bottom: 1px;
+    left: 30%;
+    transform: translate(-25%,5%);
+    color: white;
+    font-weight: bold;
+}
+
+
+h2{
+    margin-top: 6%;
+}
+
+.footer-atas{
+    margin-top: 40px;
+    height: max-content;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.socmed{
+    padding: 20px 0 10px 0;
+    height:100px;
+}
+
+.left-footer{
+    width: max-content;
+    float: left;
+    height: max-content;
+}
+
+.right-footer{
+    width: max-content;
+    height: max-content;
+    margin-top: 20px;
+    float: right;
+}
+
+.logo-footer{
+    width: 157px;
+    height: 71px;
+    margin: 8px 0;
+}
+
+.right-footer ul li{
+    display: inline;
+    padding:10px
+}
+
+.icon{
+    width: 25px;
+}
+
+.footer-tengah{
+    background-color: black;
+    height: max-content;
+}
+
+.menu-footer{
+    height: max-content;
+    width: 100%;
+}
+
+.list-menu{
+    width: max-content;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+footer{
+    background-color: #999999;
+    height: 60px;
+}
+
+.footer-width{
+    width: 100%;
+}
+
+.list-menu p{
+    font-size: 14px;
+}
+
+.title-list-menu{
+    font-size: 35px !important;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: aire;
+}
+
+.content-footer p{
+    color: #333333;
+    font-weight: 700;
+}
+
+.footer-right{
+    display: inline;
+    float: left;
+    font-family: aire;
+    font-size: 20px;
+}
+
+.footer-left{
+    float: right;
+}
+
+.footer-left ul li{
+    display: inline;
+    margin: 0 5px;
+}
+
+.footer-left li a{
+    text-decoration: none;
+    color: #333333;
+}
+
+@media screen and (max-width:1024px){
+    .navbar ul li {
+        padding-right: 20px;
+    }
+
+    .info .info-right {
+        float: none;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar ul li {
+        padding-right: 20px;
+        font-size: 10px;
+    }
+
+    .trailer{
+        height: 320px;
+    }
+
+    .description2 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (device-width:450px){
+    .left-header{
+        float: none;
+        width: 100%;
+    }
+
+    .logo-header{
+        vertical-align: middle;
+    }
+    .fas.fa-bars{
+        display: inline;
+        font-size: 40px;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .fas.fa-user-circle,.fas.fa-chevron-down{
+        display: none;
+    }
+
+    .right-header{
+        margin: 20px;
+    }
+
+    .navbar ul li{
+        display: block;
+        font-size: 20px;
+        margin-top: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar,.right-header{
+        display: none;
+    }
+
+    .open {
+        display: block;
+      }
+
+    .trailer{
+        height: 220px;
+    }
+
+    .middle img{
+        width: 40px;
+    }
+
+    .middle button{
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .img1{
+        height: 200px;
+        width: 140px;
+        margin-right: 5px;
+    }
+
+    .description{
+        font-size: 10px;
+    }
+
+    .info .info-right .info-p {
+        margin-left: 10px;
+        margin-right: 1px;
+    }
+
+    .description2{
+        margin-top: 120px;
+    }
+
+    .content h2{
+        font-size: 20px;
+    }
+
+    .left-footer{
+        margin: 0 auto;
+        float: none;
+    }
+
+    .right-footer{
+        float: none;
+        margin: 0 auto;
+    }
+
+    .right-footer ul{
+        padding-inline-start: 0px;
+    }
+
+    .footer-atas hr{
+        margin-top: 40px;
+    }
+
+    .list-menu p{
+        font-size: 10px;
+    }
+
+    .title-list-menu{
+        font-size: 16px !important;
+    }
+
+    .content-footer{
+        text-align: center;
+    }
+
+    .content-footer p{
+        font-size: 13px;
+    }
+
+    .footer-right{
+        float: none;
+    }
+
+    .footer-left{
+        float: none;
+    }
+
+    .footer-left ul{
+        font-size: 13px;
+        padding-inline-start: 0px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .left-header{
+        float: none;
+        width: 100%;
+    }
+
+    .logo-header{
+        vertical-align: middle;
+    }
+    .fas.fa-bars{
+        display: inline;
+        font-size: 40px;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .fas.fa-user-circle,.fas.fa-chevron-down{
+        display: none;
+    }
+
+    .right-header{
+        margin: 20px;
+    }
+
+    .navbar ul li{
+        display: block;
+        font-size: 20px;
+        margin-top: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar,.right-header{
+        display: none;
+    }
+
+    .open {
+        display: block;
+
+      }
+
+    .trailer{
+        height: 220px;
+    }
+
+    .middle img{
+        width: 40px;
+    }
+
+    .middle button{
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .img1{
+        height: 200px;
+        width: 140px;
+        margin-right: 5px;
+    }
+
+    .description{
+        font-size: 10px;
+    }
+
+    .info .info-right .info-p {
+        margin-left: 10px;
+        margin-right: 1px;
+    }
+
+    .description2{
+        margin-top: 120px;
+    }
+
+    .content h2{
+        font-size: 20px;
+    }
+
+    .left-footer{
+        margin: 0 auto;
+        float: none;
+    }
+
+    .right-footer{
+        float: none;
+        margin: 0 auto;
+    }
+
+    .right-footer ul{
+        padding-inline-start: 0px;
+    }
+
+    .footer-atas hr{
+        margin-top: 40px;
+    }
+
+    .list-menu p{
+        font-size: 10px;
+    }
+
+    .title-list-menu{
+        font-size: 16px !important;
+    }
+
+    .content-footer{
+        text-align: center;
+    }
+
+    .content-footer p{
+        font-size: 13px;
+    }
+
+    .footer-right{
+        float: none;
+    }
+
+    .footer-left{
+        float: none;
+    }
+
+    .footer-left ul{
+        font-size: 13px;
+        padding-inline-start: 0px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .trailer{
+        height: 190px;
+    }
+
+    .right-header{
+        margin-right: -10px;
+    }
+
+    .img1{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+    .info .info-right{
+        margin-top: 30px;
+    }
+
+    .description2{
+        margin-top: 30px;
+    }
+
+    .recommended img{
+        width: 150px;
+        height: 237px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .search{
+        width: 200px;
+        margin-right: 40px;
+    }
+    .fas.fa-search{
+        margin-right: 35px;
+        margin-left: -70px;
+    }
+
+    .content-footer p{
+        font-size: 10px;
+    }
+
+    .recommended-items img{
+        width: 220px;
+        height: 330px;
+    }
+}

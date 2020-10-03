@@ -1,0 +1,980 @@
+@media screen and (max-width: 367px) {
+    
+    .dropdown {
+        right: 12%;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .search {
+        width: 58%;
+    }
+
+    .header-right {
+        width: 100%;
+        margin: 2px 0px 0px 0px;
+    }
+
+    .breadcrumb-cont {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .search .input-group {
+        width: 69%;
+    }
+
+    .header-bottom {
+        height: 100px;
+    }
+
+    .header-bottom ul {
+        margin: 6px 0px 0px 0px;
+    }
+
+    .header-bottom li {
+        padding: 9px 2vw 0px 0px;
+    }
+
+    .header-bottom a {
+        font-size: small;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .banner-vidio .play {
+        left: 43%;
+    }
+
+    .banner-vidio .watch-trailer {
+        left: 30%;
+    }
+
+    .content {
+        height: 1114px;
+    }
+
+    .content .content-head {
+        position: relative;
+        top: 543px;
+        height: 134px;
+    }
+
+    .content .content-desc {
+        width: 100%;
+        position: relative;
+        top: 542px;
+        float: none;
+        height: 365px;
+    }
+
+    .content-head .content-head-star {
+        width: 50%;
+    }
+
+    .content-head .content-head-end {
+        width: 48%;
+        height: 131px;
+    }
+
+    .content .content-image {
+        width: 85%;
+        height: 533px;
+        top: 779px;
+        margin: 0px 0px 0px 3%;
+    }
+
+    .content .content-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: start;
+        padding: 21px 0px 0px 0px;
+    }
+
+    .content-head-end-show .about-media {        
+        display: inline-block;
+        padding: 11px 0px 0px 0px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 1152px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 314px;
+        height: 113px;
+        position: relative;
+    }
+
+    .footer-bottom .foot-last {
+        width: 100%;
+        height: 82px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .foot-last .foot-bottom-star {
+        width: 56%;
+    }
+
+    .foot-last .foot-bottom-end {
+        width: 26%;
+    }
+    
+}
+
+@media screen and (min-width: 368px) and (max-width: 535px) {
+   
+    .dropdown {
+        right: 14%;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .search {
+        width: 58%;
+    }
+
+    .header-right {
+        width: 100%;
+        margin: 2px 0px 0px 0px;
+    }
+
+    .search .input-group {
+        width: 69%;
+    }
+
+    .header-bottom {
+        height: 73px;
+    }
+
+    .header-bottom ul {
+        margin: 6px 0px 0px 0px;
+    }
+
+    .header-bottom li {
+        padding: 9px 2vw 0px 0px;
+    }
+
+    .header-bottom a {
+        font-size: small;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .banner-vidio .play {
+        left: 43%;
+    }
+
+    .banner-vidio .watch-trailer {
+        left: 30%;
+    }
+
+    .content {
+        height: 1046px;
+    }
+
+    .content .content-head {
+        position: relative;
+        top: 543px;
+        height: 134px;
+    }
+
+    .content .content-desc {
+        width: 100%;
+        position: relative;
+        top: 542px;
+        float: none;
+        height: 365px;
+    }
+
+    .content-head .content-head-star {
+        width: 50%;
+    }
+
+    .content-head .content-head-end {
+        width: 48%;
+        height: 131px;
+    }
+
+    .content .content-image {
+        width: 85%;
+        height: 533px;
+        top: 765px;
+        margin: 0px 0px 0px 3%;
+    }
+
+    .content .content-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: start;
+        padding: 21px 0px 0px 0px;
+    }
+
+    .content-head-end-show .about-media {        
+        display: inline-block;
+        padding: 11px 0px 0px 0px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 1151px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 314px;
+        height: 113px;
+        position: relative;
+    }
+
+    .footer-bottom .foot-last {
+        width: 100%;
+        height: 82px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .foot-last .foot-bottom-star {
+        width: 56%;
+    }
+
+    .foot-last .foot-bottom-end {
+        width: 26%;
+    }
+    
+}
+
+@media screen and (min-width: 536px) and (max-width: 680px) {
+    .header {
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .header-right {
+        width: 100%;
+        margin: 2px 5% 0px 0px;
+    }
+
+    .search .input-group {
+        width: 69%;
+    }
+
+    .header-bottom {
+        height: 71px;
+    }
+
+    .header-bottom ul {
+        margin: 6px 0px 0px 0px;
+    }
+
+    .header-bottom li {
+        padding: 9px 2vw 0px 0px;
+    }
+
+    .header-bottom a {
+        font-size: small;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .banner-vidio .play {
+        left: 46%;
+    }
+
+    .banner-vidio .watch-trailer {
+        left: 36%;
+    }
+
+    .content {
+        height: 980px;
+    }
+
+    .content .content-head {
+        position: relative;
+        top: 543px;
+    }
+
+    .content .content-desc {
+        width: 100%;
+        position: relative;
+        top: 542px;
+        float: none;
+        height: 329px;
+    }
+
+    .content-head .content-head-star {
+        width: 50%;
+    }
+
+    .content-head .content-head-end {
+        width: 49%;
+        height: 86px;
+    }
+
+    .content .content-image {
+        width: 85%;
+        height: 533px;
+        top: 737px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .content .content-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: start;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .content-head-end-show .about-media {
+        display: inline-block;
+        padding: 2px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 862px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 314px;
+        height: 113px;
+        position: relative;
+    }
+
+    .footer-bottom .foot-last {
+        width: 100%;
+        height: 82px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .foot-last .foot-bottom-star {
+        width: 56%;
+    }
+
+    .foot-last .foot-bottom-end {
+        width: 26%;
+    }
+    
+}
+
+@media screen and (min-width: 681px) and (max-width: 880px) {
+    
+    .dropdown {
+        right: 15%;
+    }
+    
+    .logo {
+        margin: 2px 5px 0px 2%;
+    }
+
+    .header-right {
+        width: 66%;
+        margin: 2px 4% 0px 0px;
+    }
+
+    .search {
+        width: 73%;
+    }
+
+    .header-bottom {
+        height: 71px;
+    }
+
+    .header-bottom ul {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .header-bottom li {
+        padding: 9px 2vw 0px 0px;
+    }
+
+    .header-bottom a {
+        font-size: smaller;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .banner-vidio .play {
+        left: 47%;
+    }
+
+    .banner-vidio .watch-trailer {
+        left: 41%;
+    }
+
+    .content {
+        height: 924px;
+    }
+
+    .content .content-head {
+        position: relative;
+        top: 543px;
+    }
+
+    .content .content-desc {
+        width: 100%;
+        position: relative;
+        top: 542px;
+        float: none;
+    }
+
+    .content-head .content-head-star {
+        width: 50%;
+    }
+
+    .content-head .content-head-end {
+        width: 49%;
+        height: 86px;
+    }
+
+    .content .content-image {
+        width: 85%;
+        height: 533px;
+        top: 638px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .content .content-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: start;
+        padding: 26px 0px 0px 0px;
+    }
+
+    .content-head-end-show .about-media {
+        display: inline-block;
+        padding: 2px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 813px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 288px;
+        height: 90px;
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width: 881px) and (max-width: 1081px) {
+    .dropdown {
+        right: 4%;
+    }
+
+    .logo {
+        margin: 2px 5px 0px 2%;
+    }
+
+    .header-right {
+        width: 60%;
+        margin: 2px 4% 0px 0px;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .header-bottom {
+        height: 74px;
+    }
+
+    .header-bottom ul {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .header-bottom li {
+        padding: 8px 2vw 0px 0px;
+    }
+
+    .header-bottom a {
+        font-size: smaller;
+    }
+    
+    .content {
+        height: 408px;
+    }
+
+    .content .content-desc {
+        width: 62%;
+    }
+
+    .content-head .content-head-star {
+        width: 35%;
+    }
+
+    .content-head .content-head-end {
+        width: 27%;
+        height: 86px;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: start;
+        padding: 29px 0px 0px 0px;
+    }
+
+    .content-head-end-show .about-media {
+        display: inline-block;
+        padding: 1px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 805px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 288px;
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width: 1082px) and (max-width: 1281px) {
+    .dropdown {
+        right: 2%;
+    }
+
+    .logo {
+        margin: 2px 5px 0px 2%;
+    }
+
+    .header-right {
+        width: 43%;
+        margin: 2px 6% 0px 0px;
+    }
+
+    .container {
+        width: 92%;
+        margin: 0px 4% 0px 4%;
+    }
+
+    .header-bottom li {
+        padding: 0px 2vw 0px 0px;
+    }
+
+    .content .content-desc {
+        width: 69%;
+    }
+
+    .content-head .content-head-star {
+        width: 34%;
+    }
+
+    .content-head .content-head-end {
+        width: 35%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: center;
+        padding: 51px 0px 0px 0px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 445px;
+    }
+
+    .footer .footer-top {
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+        width: 94%;
+        margin: 0px 3% 0px 3%;
+    }
+
+    .footer-center .item {
+        width: 165px;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .footer .footer-bottom {
+        top: 24px;
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width: 1282px) and (max-width: 1381px) {
+    .dropdown {
+        right: 3%;
+    }
+
+    .header-right {
+        width: 43%;
+    }
+
+    .header-bottom li {
+        padding: 0px 1% 0px 0px;
+    }
+
+    .content .content-desc {
+        width: 64%;
+    }
+
+    .content-head .content-head-star {
+        width: 30%;
+    }
+
+    .content-head .content-head-end {
+        width: 34%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: center;
+        padding: 51px 0px 0px 0px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 741px;
+    }
+
+    .footer .footer-bottom {
+        top: 223px;
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 1382px) and (max-width: 1481px) {
+    .dropdown {
+        right: 4%;
+    }
+
+    .header-right {
+        width: 43%;
+    }
+
+    .header-bottom li {
+        padding: 0px 1% 0px 0px;
+    }
+
+    .content .content-desc {
+        width: 67%;
+    }
+
+    .content-head .content-head-star {
+        width: 32%;
+    }
+
+    .content-head .content-head-end {
+        width: 35%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: center;
+        padding: 51px 0px 0px 0px;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 741px;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+    }
+
+    .footer .footer-bottom {
+        top: 223px;
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 1482px) and (max-width: 1578px) {
+    
+    .dropdown {
+        right: 3%;
+    }
+
+    .header-bottom li {
+        padding: 0px 2% 0px 0px;
+    }
+
+    .header-right {
+        width: 38%;
+    }
+
+    .content-head .content-head-star {
+        width: 34%;
+    }
+
+    .content-head .content-head-end {
+        width: 34%;
+    }
+
+    .content-head-end .content-head-end-show {
+        text-align: center;
+        padding: 49px 16px 0px 0px;
+    }
+
+    .content .content-desc {
+        width: 68%;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 741px;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+    }
+
+    .footer .footer-bottom {
+        top: 223px;
+        position: relative;
+    }
+
+}
+
+
+@media screen and (min-width: 1579px) and (max-width: 1788px) {
+    
+    .dropdown {
+        right: 2%;
+    }
+
+    .header-bottom li {
+        padding: 0px 2% 0px 0px;
+    }
+
+    .content .content-desc {
+        width: 68%;
+    }
+
+    .content-head .content-head-star {
+        width: 35%;
+    }
+
+    .content-head .content-head-end {
+        width: 36%;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .content .content-desc {
+        width: 71%;
+    }
+
+
+    .footer {
+        height: 741px;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+    }
+
+    .footer .footer-bottom {
+        top: 223px;
+        position: relative;
+    }
+
+}
+
+
+@media screen and (min-width: 1789px) and (max-width: 1874px) {
+   
+    .dropdown {
+        right: 2%;
+    }
+
+    .header-bottom li {
+        padding: 0px 3% 0px 0px;
+    }
+
+    .content-head .content-head-star {
+        width: 40%;
+    }
+
+    .content-head .content-head-end {
+        width: 34%;
+    }
+
+    .content .content-desc {
+        width: 74%;
+    }
+
+    .content-bottom .content-bottom-title h2 {
+        text-align: center;
+    }
+
+    .footer {
+        height: 741px;
+    }
+
+    .footer .footer-center {
+        text-align: center;
+    }
+
+    .footer .footer-bottom {
+        top: 223px;
+        position: relative;
+    }
+}
+
+/* 1900px */

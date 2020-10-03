@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <title>Domigado</title>
+      <script>
+      	$(document).ready(function(){
+      		$("#side").click(function(){
+      			$(".list-menu").toggleClass("main");
+      			$("body").toggleClass("main2")
+      			console.log($("#side"))
+      		});
+      	});
+      </script>
+   </head>
+   <body>
+      <header>
+         <div class="header-atas" >
+         	<div class="container">
+         		<div class="content-wrap">
+         			<div class="logo-atas">
+         				<img src="assets/logo.png">
+         			</div>
+         			<div class="right-wrap" >
+         				<div class="search">
+         					<input type="text" class="text_cari" placeholder="Cari Judul, imdb">
+         					<button><img src="assets/icon_search.png"> </button>
+         				</div>
+         				<div class="user">
+         					<img src="assets/user.png">
+         					<a href="#"><img src="assets/icon_nav.png"></a>
+         				</div>
+         			</div>
+         		</div>
+         	</div>
+         </div>
+         <div class="header-bawah" style="">
+            <div class="container">
+          		<div class="list-menu-mob">
+          			<a id="side" href="#"><img src="assets/bars-solid.png"></a>
+          		</div>
+               <ul class="list-menu">
+                  <li><a class="nodekor-white" href="#">NONTON FILM</a></li>
+                  <li><a class="nodekor-white" href="#">DRAMA KOREA</a></li>
+                  <li><a class="nodekor-white" href="#">ANIME</a></li>
+                  <li><a class="nodekor-white" href="#">SERIES</a></li>
+                  <li><a class="nodekor-white" href="#">FILM SEMI</a></li>
+                  <li><a class="nodekor-white" href="#">FILM ONLINE</a></li>
+                  <li><a class="nodekor-white" href="#">NEGARA</a></li>
+                  <li><a class="nodekor-white" href="#">GENRE</a></li>
+                  <li><a class="nodekor-white" href="#">TAHUN</a></li>
+               </ul>
+            </div>
+         </div>
+      </header>
+      	<div class="container">
+        	<div class="film-lain">
+        		<a href="#">Home ></a>
+        		<a href="#">Actions ></a>
+        		<a href="#">Ip Man 4</a>
+      			<!-- <p>Home > Actions > Ip Man 4</p> -->
+			</div>
+
+			<div class="main-img">
+            	<img src="assets/main-img.jpg">
+            	<div class="trailer">
+               		<img src="assets/play.png">
+               		<button><img src="assets/watch.png">WATCH TRAILER</button>
+              	</div>
+         	</div>
+         	<div class="detail">
+            	<div class="sub-img" style="">
+               		<img src="assets/sub-img.jpg">
+            	</div>
+            	<div class="title-wrap" style="">
+            		<div class="title">
+            			<p>IP MAN 4 -2020</p>
+            		</div>
+
+            		<div class="subtitle">
+            			<span>Runtime: 108 min | Release :March,2020 |<img class="icon" src="assets/imbd.png"> 7/10</span>
+            			<div class="right" style="">
+            				<p><img class="icon" src="assets/mata.png"> 220.000 views</p>
+            				<p><img class="icon" src="assets/jempol.png"> 118k</p>
+            				<p><img class="icon" src="assets/dislike.png"> 72</p>
+            				<p><img class="icon" src="assets/share.png"> SHARE</p>
+            			</div>
+            				
+            		</div>
+               		
+            	</div>
+         	</div>
+         	<div class="desk-film-wrap">
+         		<div class="desk-film">
+         			<p><strong>Genre:</strong>Action,Biography,Drama,History</p>
+               		<hr>
+               		<p><strong>Actors:</strong>Scott Adkins , Donnie Yen , Kwok-Kwan Chan , Chris Collins</p>
+               		<hr>
+               		<p><strong>Directors:</strong>Wilson Yip</p>
+               		<hr>
+               		<p><strong>Plot:</strong>The Kung Fu master travels to the U.S. where his student has upset the local martial arts community by opening
+                  a Wing Chun school.
+               		</p>
+               		<hr>
+               		<p><strong>Tag:</strong>lorem, ipsum, dolor, sit, amet, ipsum, dolor, sit, amet, ipsum, dolor, sit, amet, ipsum, dolor, sit, amet, ipsum, dolor, sit, amet</p>
+         		</div>
+               		
+            	</div>   
+         	
+         	<div class="film-lain-wrap">
+         		<div class="film-lain">
+            		<h2>Rekomendasi Film Lainnya</h2>
+         		</div>
+         		<div class="list-film-wraper">
+         		<div class="list-film">
+           		 	<img src="assets/img1.jpg">
+           		 	<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>Escape From Pretoria (2020)</p>
+         		</div>
+         		<div class="list-film">
+            		<img src="assets/img2.jpg">
+            		<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>Swallow (2020)</p>
+         		</div>
+         		<div class="list-film">
+            		<img src="assets/img3.jpg">
+            		<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>Becoming (2020)</p>
+         		</div>
+         		<div class="list-film">
+           			<img src="assets/img4.jpg">
+           			<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>Tell Me What You (2020)</p>
+         		</div>
+         		<div class="list-film">
+            		<img src="assets/img5.jpg">
+            		<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>The Witcher (2020)</p>
+         		</div>
+         		<div class="list-film">
+            		<img src="assets/img6.jpg">
+            		<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>V-Wars (2020)</p>
+         		</div>
+         		<div class="list-film">
+            		<img src="assets/img7.jpg">
+            		<span><img src="assets/bntang.png">6/10</span>
+           		 	<p>Manifest (2020)</p>
+        		</div>
+        		</div>
+      		</div>
+      	</div>
+      	<footer style="">
+      	<div class="foot-atas-wraper">
+      		<div class="foot-atas">
+            <div style="">
+               <div class="logo" style="">
+                  <img src="assets/logo2.png">
+               </div>
+               <div class="media">
+                  <a href="#"><img src="assets/fb.png"></a>
+                  <a href="#"><img src="assets/twt.png"></a>
+                  <a href="#"><img src="assets/ig.png"></a>
+                  <a href="#"><img src="assets/yt.png"></a>
+               </div>
+            </div>
+            <hr class="hr-border">
+            <div class="inline-blok-wrap">
+               <div class="inline-blok">
+                  <p class="title-cat">Dewa Bioskop</p>
+                  <ul>
+                     <li><a class="nodekor-white" href="#">Bioskopkeren</a></li>
+                     <li><a class="nodekor-white" href="#">Cinemaindo</a></li>
+                     <li><a class="nodekor-white" href="#">Dewamovie</a></li>
+                     <li><a class="nodekor-white" href="#">21Cineplex</a></li>
+                     <li><a class="nodekor-white" href="#">Dunia21</a></li>
+                     <li><a class="nodekor-white" href="#">DMCA</a></li>
+                  </ul>
+               </div>
+               <div class="inline-blok">
+                  <p class="title-cat">INDOXXI</p>
+                  <ul>
+                     <li><a class="nodekor-white" href="#">Cinema XXI</a></li>
+                     <li><a class="nodekor-white" href="#">Nonton Movie</a></li>
+                     <li><a class="nodekor-white" href="#">Indo XXI</a></li>
+                     <li><a class="nodekor-white" href="#">Bioskop Online</a></li>
+                     <li><a class="nodekor-white" href="#">Dunia21</a></li>
+                     <li><a class="nodekor-white" href="#">Layar Kaca XXI</a></li>
+                     <li><a class="nodekor-white" href="#">FAQ</a></li>
+                  </ul>
+               </div>
+               <div class="inline-blok">
+                  <p class="title-cat">LAYARKACA21</p>
+                  <ul>
+                     <li><a class="nodekor-white" href="#">Layar kaca</a></li>
+                     <li><a class="nodekor-white" href="#">LK21 Indonesia</a></li>
+                     <li><a class="nodekor-white" href="#">LK21</a></li>
+                     <li><a class="nodekor-white" href="#">Nonton Movie 21</a></li>
+                     <li><a class="nodekor-white" href="#">XXI Streaming</a></li>
+                  </ul>
+               </div>
+               <div class="inline-blok">
+                  <p class="title-cat">CINEMA21</p>
+                  <ul>
+                  <li><a class="nodekor-white" href="#">Layar kaca 21</a></li>
+                  <li><a class="nodekor-white" href="#">XXI Cinema</a></li>
+                  <li><a class="nodekor-white" href="#">Bioskop 21</a></li>
+                  <li><a class="nodekor-white" href="#">Nonton Film Online</a></li>
+                  <li><a class="nodekor-white" href="#">Nonton Online</a></li>
+               </div>
+               <div class="inline-blok">
+                  <p class="title-cat">FILM ASIA TERBAIK</p>
+                  <ul>
+                     <li><a class="nodekor-white" href="#">Drakorindo</a></li>
+                     <li><a class="nodekor-white" href="#">Film Indonesia</a></li>
+                     <li><a class="nodekor-white" href="#">Film India</a></li>
+                     <li><a class="nodekor-white" href="#">Film Thailand</a></li>
+                     <li><a class="nodekor-white" href="#">Drakoreaindo</a></li>
+                  </ul>
+               </div>
+               <div class="inline-blok">
+                  <p class="title-cat">DOWNLOAD FILM</p>
+                  <ul>
+                     <li><a class="nodekor-white" href="#">Download Film Gratis</a></li>
+                     <li><a class="nodekor-white" href="#">Film Terbaru</a></li>
+                     <li><a class="nodekor-white" href="#">Download Film SubIndo</a></li>
+                     <li><a class="nodekor-white" href="#">Situs Download Film</a></li>
+                     <li><a class="nodekor-white" href="#">Cinema 21 Streaming</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      	</div>
+      	<div class="foot-bawah-wraper">
+         <div class="foot-bawah" style="">
+            <p class="copyrek">Copyright © 2020, Domigado. All Rights Reserved</p>
+           <p class="privacy" style="">Privacy Policy</p>
+         </div>
+         </div>
+      </footer>
+   </body>
+</html>

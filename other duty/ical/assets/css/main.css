@@ -1,0 +1,542 @@
+@import url('https://fonts.cdnfonts.com/css/aire-exterior');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	/* border:12px solid orange; */
+	padding: 0;
+}
+
+.header {
+	padding: 0px 222px 0 310px;
+	top: 10px;
+	position: relative;
+	/* border:1px solid blue; */
+	height: 93px;
+	width: 100%;
+	text-decoration: none;
+	/* text-align: center; */
+}
+
+#logo-domigado {
+	line-height: 100px;
+	max-width: 157px;
+	max-height: 71px;
+	;
+}
+
+.form-search {
+	float: right;
+	display: inline-block;
+	width: 100%;
+	max-width: 400px;
+	position: relative;
+	margin-right: 10px;
+	vertical-align: middle;
+	line-height: 73px;
+	/* border:1px solid green; */
+}
+
+input {
+	width: 225px;
+	background: white;
+	border: 1px solid #e2e2e2;
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	color: white;
+	/* display: inline; */
+}
+
+button {
+	position: absolute;
+	right: 0;
+	padding: 0 15px;
+	width: 381px;
+	height: 100%;
+	outline: none;
+	color: #e2e2e2;
+	background: transparent;
+	border: none;
+}
+
+.header-2 {
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	color: white;
+	font-family: 'Montserrat';
+	font-style: bold;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0px 320px 0 283px;
+	vertical-align: middle;
+	line-height: 57px;
+}
+
+.profile {
+	float: right;
+	background: #999999;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 107px;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 10px;
+}
+
+#photo-profile {
+	display: block;
+}
+
+.arrow {
+	border: solid #999999;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.panah-bawah {
+	float: right;
+	margin-right: 89px;
+}
+
+.list-menu {
+	display: inline-block;
+	/* border: 1px solid violet; */
+}
+
+.list-menu li {
+	display: inline-block;
+	padding: 0 26px;
+}
+
+.menu-icon-2 {
+	width: 40px;
+	text-align: center;
+	margin: 0 50px;
+	cursor: pointer;
+	display: none;
+}
+
+.content {
+	padding: 0px 306px 0 318px;
+	margin-bottom: 350px;
+	/* background-color: red; */
+}
+
+.breadcumb {
+	margin-top: 10px;
+	font-family: 'Montserrat';
+	font-size: 12px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+
+#ip-man {
+	max-width: 100%;
+	height: 406px;
+	position: relative;
+}
+
+.container-film {
+	position: relative;
+	border: 4px solid pink;
+	/* margin-left: 293px; */
+}
+
+.isi-content-2 {
+	background-color: #00a79d;
+	position: relative;
+	max-width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#ip-man2 {
+	max-width: 257px;
+	height: 386px;
+	float: left;
+	position: relative;
+	/* display: none; */
+	/* border-radius: 10px; */
+	/* margin-top: 11px;
+    margin-left: 9px; */
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.descripsi-film {
+	/* background-color: yellow; */
+}
+
+.descripsi-film h3 {
+	margin-top: 10px;
+	color: white;
+	font-family: 'Aire Exterior';
+	font-size: 30px;
+	font-weight: 1;
+}
+
+.descripsi-film .title-1 {
+	display: inline-block;
+	color: white;
+}
+
+.descripsi-film .title-2 {
+	display: inline-block;
+	float: right;
+	color: white;
+}
+
+.descripsi-film #genre {
+	margin-top: 39px;
+}
+
+.descripsi-film p:not(.ww) {
+	margin: 22px auto;
+}
+
+.descripsi-film p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+.descripsi-film span:not(#kungfu) {
+	color: #00a79d;
+}
+
+.descripsi-film a {
+	color: #00a79d;
+	padding-right: 5px;
+}
+
+.content-2 {
+	padding: 0px 306px 0 318px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.content-2 h2 {
+	font-family: 'Aire Exterior';
+	font-size: 30px;
+	color: #333333;
+}
+
+.content-2 .film-rekomendasi {
+	max-width: 145px;
+	max-height: 287px;
+}
+
+.footer-1 {
+	background-color: black;
+	width: 100%;
+	height: auto;
+	color: white;
+	font-family: 'Aire Exterior';
+	padding: 0px 306px 0 318px;
+	vertical-align: middle;
+	line-height: 57px;
+}
+
+#logo-domigado2 {
+	max-width: 157px;
+	max-height: 57px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.link-social-media {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.logo-social-media {
+	max-width: 40px;
+	max-height: 40px;
+	padding: 0px 15px 0 0
+}
+
+.container2-footer-1 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+.container2-footer-1 .menu-footer {
+	display: inline-block;
+	padding: 0 42px 0 12px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.container2-footer-1 .list-menuuu {
+	list-style-type: none;
+}
+
+.container2-footer-1 .list-menuuu li {
+	height: 30px;
+}
+
+.container2-footer-1 .menu-footer h4 {
+	font-size: 30px;
+}
+
+.container2-footer-1 .menu-footer a {
+	color: white;
+	font-size: 9px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footer-2 {
+	background-color: #999999;
+	bottom: 10px;
+	width: 100%;
+	height: 100%;
+	color: #333333;
+	font-family: 'Aire Exterior', sans-serif;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 0px 300px 0 325px;
+	vertical-align: middle;
+	line-height: 57px;
+}
+
+#privacy-policy {
+	float: right;
+}
+
+@media screen and (max-width: 1440px) {
+	.list-menu li {
+		display: inline-block;
+		padding: 0px 10px;
+	}
+	.descripsi-film .title-1 {
+		font-size: 11px;
+	}
+	.descripsi-film .title-2 {
+		font-size: 11px;
+	}
+	.content-2 .film-rekomendasi {
+		max-width: 110px;
+		max-height: 287px;
+	}
+	.container2-footer-1 .menu-footer {
+		padding: 0 4px 0 12px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header {
+		padding: 0px 100px 0 100px;
+	}
+	.header-2 {
+		padding: 0px 100px 0 100px;
+	}
+	.list-menu li {
+		display: inline-block;
+		padding: 0 13px;
+	}
+	.content {
+		padding: 0px 121px 0 121px;
+	}
+	.content-2 {
+		padding: 0px 12px 0 121px;
+	}
+	.footer-1 {
+		padding: 0px 121px 0 121px;
+	}
+	.container2-footer-1 .menu-footer {
+		padding: 0px 0px 0 10px;
+	}
+	.footer-2 {
+		padding: 0px 121px 0 121px;
+	}
+	/* .form-search{
+        /* display: none; */
+	/* .menu-icon{
+        margin-left: 148px;
+        display: inline;
+    } */
+	/* .descripsi-film .title-1 {
+        font-size: 11px;
+    }
+    .descripsi-film .title-2 {
+        font-size: 11px;
+    }
+    .content-2 .film-rekomendasi {
+        max-width: 110px;
+        max-height: 287px;
+    }
+    .container2-footer-1 .menu-footer {
+        padding: 0 4px 0 12px;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		padding: 0px 12px 0 65px;
+    }
+    .form-search {
+		/* display: none; */
+    }
+	.header-2 {
+        padding: 0px 12px 0 12px;
+    }
+    .list-menu li {
+        display: inline-block;
+        padding: 0 8px;
+    }
+	.content {
+        padding: 0px 12px 0 12px;
+		margin-bottom: 400px;
+    }
+    .content-2{
+        padding: 0px 12px 0 12px;
+    }
+	.container2-footer-1 .menu-footer {
+		padding: 0px 0px 0 41px;
+    }
+    .footer-1 {
+        padding: 0px 12px 0 12px;
+    }
+    .footer-2 {
+        padding: 0px 12px 0 12px;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        /* background-color: yellowgreen; */
+    }
+    .form-search {
+		display: none;
+    }
+    .list-menu li{
+        padding: 0 80px;
+    }
+    .header-2{
+        height: auto;
+    }
+    .content {
+        padding: 0px 12px 0 12px;
+        margin-bottom: 738px;
+    }
+    #ip-man{
+        height: 232px;
+    }
+    .content-2 {
+        padding: 0px 12px 0 12px;
+    }
+    .footer-1 {
+        padding: 0px 12px 0 12px;
+    }
+    .footer-2 {
+        padding: 0px 12px 0 12px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+	body {
+		/* background-color: orange; */
+    }
+    .header{
+        padding: 0px 12px 0 12px;
+    }
+	.form-search {
+		display: none;
+    }
+    .list-menu li {
+        display: inline-block;
+        /* padding:0 24px; */
+        padding: 0 73px
+    }
+	.header-2 {
+        height: auto;
+    }
+	.content {
+		padding: 0px 12px 0 12px;
+		margin-bottom: 735px;
+	}
+	#ip-man2 {
+		max-width: 169px;
+	}
+	.content-2 {
+		padding: 0px 5px 0 15px
+	}
+	.footer-1 {
+		padding: 0px 12px 0 12px;
+    }
+    .footer-2{
+        padding: 0px 75px 0 5px;
+    }
+    #privacy-policy {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		padding: 0 0 0 10px;
+	}
+	/* .search,#input-search{
+        display: none;
+    } */
+	.form-search {
+		display: none;
+	}
+
+	.header-2 {
+		width: 100%;
+		height: auto;
+	}
+	.header-2 .list-menu {
+		/* display: none; */
+	}
+	.header-2 .menu-icon-2 {
+		display: inline-block;
+		color: white;
+	}
+	.content {
+		padding: 6px;
+		margin-bottom: 800px;
+	}
+	.content-2 {
+		padding: 0px 15px 0 15px;
+	}
+	.footer-1 {
+		padding: 0px 12px 0 12px;
+	}
+	.garis {
+		display: none;
+	}
+	.container2-footer-1 .menu-footer {
+		padding: 0px 0px 0 41px;
+	}
+	#copyright {
+		display: block;
+	}
+}
